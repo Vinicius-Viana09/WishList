@@ -8,7 +8,7 @@ using WishList_WebApi.Interfaces;
 
 namespace WishList_WebApi.Repositories
 {
-    public class DesejoRepository : IDesejo
+    public class DesejoRepository : IDesejoRepository
     {
         WishListContext ctx = new WishListContext();
 

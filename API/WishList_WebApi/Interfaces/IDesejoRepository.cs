@@ -6,7 +6,7 @@ using WishList_WebApi.Domains;
 
 namespace WishList_WebApi.Interfaces
 {
-    interface IDesejo
+    interface IDesejoRepository
     {
         List<Desejo> Listar();
 

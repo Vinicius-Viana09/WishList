@@ -9,7 +9,7 @@ using WishList_WebApi.Interfaces;
 
 namespace WishList_WebApi.Repositories
 {
-    public class UsuarioRepository : IUsuario
+    public class UsuarioRepository : IUsuarioRepository
     {
         WishListContext ctx = new WishListContext();
 
