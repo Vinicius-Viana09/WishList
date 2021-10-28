@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cliente\\OneDrive - SESISENAISP - Escolas\\Área de Trabalho\\WishList\\API\\WishList_WebApi\\WishList_WebApi.csproj": {}
+    "C:\\Users\\migue\\OneDrive\\Área de Trabalho\\SENAI\\Wishlist\\WishList\\API\\WishList_WebApi\\WishList_WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cliente\\OneDrive - SESISENAISP - Escolas\\Área de Trabalho\\WishList\\API\\WishList_WebApi\\WishList_WebApi.csproj": {
+    "C:\\Users\\migue\\OneDrive\\Área de Trabalho\\SENAI\\Wishlist\\WishList\\API\\WishList_WebApi\\WishList_WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cliente\\OneDrive - SESISENAISP - Escolas\\Área de Trabalho\\WishList\\API\\WishList_WebApi\\WishList_WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\migue\\OneDrive\\Área de Trabalho\\SENAI\\Wishlist\\WishList\\API\\WishList_WebApi\\WishList_WebApi.csproj",
         "projectName": "WishList_WebApi",
-        "projectPath": "C:\\Users\\cliente\\OneDrive - SESISENAISP - Escolas\\Área de Trabalho\\WishList\\API\\WishList_WebApi\\WishList_WebApi.csproj",
-        "packagesPath": "C:\\Users\\cliente\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cliente\\OneDrive - SESISENAISP - Escolas\\Área de Trabalho\\WishList\\API\\WishList_WebApi\\obj\\",
+        "projectPath": "C:\\Users\\migue\\OneDrive\\Área de Trabalho\\SENAI\\Wishlist\\WishList\\API\\WishList_WebApi\\WishList_WebApi.csproj",
+        "packagesPath": "C:\\Users\\migue\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\migue\\OneDrive\\Área de Trabalho\\SENAI\\Wishlist\\WishList\\API\\WishList_WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\cliente\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\migue\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -95,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

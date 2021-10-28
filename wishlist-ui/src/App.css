@@ -1,0 +1,17 @@
+#titulo{
+  text-align:center;
+}
+
+#tela{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#organizacao{
+  margin-top:100px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
