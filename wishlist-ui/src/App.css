@@ -15,3 +15,32 @@
   display: flex;
   justify-content: space-between;
 }
+
+#divCadastro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#formCadastro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#formCadastro button{
+  margin-top: 30px;
+  width: 70%;
+  }
+
+#formCadastro label{
+  margin-top: 15px;
+  }
+
+  h3{
+    text-align: center;
+  }
+  #tabelaWishes{
+    height: 80%;
+  }

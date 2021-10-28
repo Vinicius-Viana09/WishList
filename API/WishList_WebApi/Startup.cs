@@ -28,6 +28,17 @@ namespace WishList_WebApi
                 options.SerializerSettings.NullValueHandling = NullValueHandling.Ignore;
             });
 
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy",
+                                  builder =>
+                                  {
+                                      builder.WithOrigins("http://localhost:3000")
+                                     .AllowAnyHeader()
+                                     .AllowAnyMethod();
+                                  });
+            }); 
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo
@@ -84,8 +95,8 @@ namespace WishList_WebApi
             });
 
             app.UseRouting();
-
-            app.UseCors("CorPolicy");
+            
+            app.UseCors("CorsPolicy");
 
             app.UseAuthentication();
 
